@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bersuara</title>
+</head>
+<body>
+    <h1>Selamat Datang di Website Bersuara!</h1>
+    <audio id="suara" src="suara.mp3"></audio>
+    <button onclick="putarSuara()">Putar Suara</button>
+
+    <script>
+        function putarSuara() {
+            var audio = document.getElementById("suara");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
